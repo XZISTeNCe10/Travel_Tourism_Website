@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    height: 2000px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container{
+    flex-direction: column;
+    width: 100%;
+    height: 420px;
+    background-image: url(IMAGES/family.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 40px;
+}
+.navbar{
+    flex-direction: row;
+    width: 80%;
+    height: 90px;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    background-color: #131A2F;
+
+}
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.logotext{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.lt{
+    flex-direction:column;
+}
+
+.navtext{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.4s;
+}
+
+.navtext:hover{
+    color: #d61c22;
+}
+
+.logo{
+    flex-direction: column;
+}
+
+.container .title{
+    font-family: Montserrat;
+    font-weight: bolder;
+    margin-top: 80px;
+    color:#fdaa27;
+    letter-spacing: 2px;
+    font-size: 90px;
+    margin-right: 50px;
+
+}
+
+.searchbar{
+    width: 100%;
+    border: 3px solid black;
+    height: 300px;
+    background-image: url(IMAGES/pexels-elena-zhuravleva-1457812.jpg);
+    background-size: cover;
+    z-index: 0;
+    margin-top: 120px;
+
+    
+
+}
+.cover{
+    opacity: 0.8;
+    width: 100%;
+    background-color: black;
+    height: 300px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cover span{
+    margin-top: 40px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    letter-spacing: 2px;
+
+}
+.sbitem{
+    margin-top: 20px;
+    flex-direction: row;
+    width: 85%;
+    height: 170px;
+    border: 2px solid white;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sbitem input{
+    font-size: large;
+    height: 60px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    z-index: 4;
+    
+
+}
+.sbitem select{
+    font-size: large;
+    height: 64px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    z-index: 4;
+
+}
+
+.sbitem button{
+    height: 64px;
+    width: 130px;
+    background-color: #d61c22;;
+    z-index: 4;
+    color: white;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: cover;
+}
+
+ .info{
+    flex-direction: row;
+    width: 100%;
+    margin-top: 330px;
+    border-radius: 10px;
+    height: 650px;
+    width: 100%;
+ 
+    
+}
+ .info img{
+    height: 300px ;
+    width: 300px;
+    margin-left: 50px;
+}
+
+  .photos_desc{
+    flex-direction: row;
+
+}
+ .info .kerala_info{
+    flex-direction: column;
+}
+ .info .darjeeling_info{
+    flex-direction: column;
+}
+
+ .info .andaman_info{
+    flex-direction: column;
+}
+
+
+
+ .info h3{
+    
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+ .info .first{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 50px;
+    height: 180px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+}
+
+ .info .second{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 80px;
+    height: 220px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+
+}
+
+.info .third{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 100px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+}
+
+
+.newsletter{
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 400px;
+    background-image: url(IMAGES/newsbg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+
+}
+.newsletter span{
+    font-family: Montserrrat;
+    font-size: 40px;
+    font-weight: 300px;
+    color: white;
+    margin-top: 100px;
+}
+ 
+
+.email{
+    flex-direction: row;
+    
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.email input{
+    background-color:#00000000 ;
+    border: 1px solid white;
+
+}
+
+.email button{
+    height:50px;
+    width: 130px;
+    font-weight: 500;
+    color: white;
+    background-color: #fe364a;
+    border: none;
+
+}
+
+.footer{
+    width: 100%;
+    height: 390px;
+    background-color: #080d1d;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    gap :170px;
+
+
+}
+
+
+.socials{
+    flex-direction: column;
+    height: 300px;
+     width: 250px;
+     justify-content: center;
+
+}
+.logon{
+     flex-direction: row;
+     align-items: center;
+     margin-bottom: 27px;
+
+
+}
+.logon span{
+    color: white;
+    font-family:  Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.socials p{
+    color: #aab1b7;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+.soclogos{
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-left: 10px;
+
+
+}
+.soclogos img{
+    height: 20px;
+    width: 20px;
+}
+
+.footerinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+
+}
+
+.footerinfo span{
+    font-family: Montserrat;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    margin: top 45px;
+    letter-spacing: 2px;
+
+
+}
+
+.footerinfo p{
+    color:#aab1b7;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.helpinfo span{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 37px;
+    
+}
+.helpinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.helpinfo p{
+    font-size: 16px;
+    color:#AAB1B7; 
+}

@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    height: 700px;
+    background-image: url(IMAGES/pattern1.png.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.login{
+    width: 100%;
+    height: 700px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+
+    height: 600px;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10;
+    background-color: white;
+    background-attachment: scroll;
+
+
+}
+
+.loginbox p{
+    font-size: 19px;
+    font-family: Montserrat;
+    color: black;
+    font-weight:500;
+}
+.loginbox input{
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.keepme{
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.keepme p{
+    font-size: 18px;
+    font-family: Montserrat;
+}
+button{
+    height: 50px;
+    width: 120px;
+    background-color: #d61c22;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}

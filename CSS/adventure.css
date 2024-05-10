@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    height: 3000px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    box-sizing: border-box;
+}
+.container{
+    flex-direction: column;
+    width: 100%;
+    height: 670px;
+    background-image: url(IMAGES/water_sports.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 40px;
+}
+.navbar{
+    flex-direction: row;
+    width: 80%;
+    height: 90px;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    background-color: #131A2F;
+
+}
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.logotext{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+.lt{
+    flex-direction:column;
+}
+
+.navtext{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.4s;
+}
+
+.navtext:hover{
+    color: #d61c22;
+}
+
+.logo{
+    flex-direction: column;
+}
+
+.container .title{
+    font-family: Montserrat;
+    font-weight: bolder;
+    margin-top: 120px;
+    color: #fdaa27;
+    letter-spacing: 2px;
+    font-size: 90px;
+    margin-right: 50px;
+
+}
+
+ .text_search{
+    border-radius: 10px;
+    height: 1000px;
+    width: 900px;
+    margin-top: 300px;
+    flex-direction: row;
+    background-color: #131A2F;
+    justify-content: center;
+}
+
+.container .text_search .first{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.container .text_search .where{
+    
+    height: 45px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+
+}
+.container .text_search .date{
+    height: 45px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.container .text_search .second{
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+
+}
+
+.container .text_search .type{
+    height: 45px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.container .text_search .third{
+    color: white;
+    margin-left: 7px;
+    margin-top: 10px;
+
+}
+.container .text_search .buttonn{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 120px;
+    
+
+}
+.container .info{
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.container .info img{
+    height: 300px ;
+    width: 300px;
+    margin-left: 50px;
+}
+
+ .container .photos_desc{
+    flex-direction: row;
+
+}
+.container .info .goa_info{
+    flex-direction: column;
+}
+.container .info .rishikesh_info{
+    flex-direction: column;
+}
+
+.container .info .ladakh_info{
+    flex-direction: column;
+}
+
+
+
+.container .info h3{
+    
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.container .info .first{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 50px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+}
+
+.container .info .second{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 80px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+
+}
+
+.container .info .third{
+    
+    border-radius: 8px;
+    color: darkred;
+    margin-left: 100px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: oldlace;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 390px;
+    background-color: #080d1d;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    gap :170px;
+
+
+}
+
+
+.socials{
+    flex-direction: column;
+    height: 300px;
+     width: 250px;
+     justify-content: center;
+
+}
+.logon{
+     flex-direction: row;
+     align-items: center;
+     margin-bottom: 27px;
+
+
+}
+.logon span{
+    color: white;
+    font-family:  Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.socials p{
+    color: #aab1b7;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+.soclogos{
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-left: 10px;
+
+
+}
+.soclogos img{
+    height: 20px;
+    width: 20px;
+}
+
+.footerinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+
+}
+
+.footerinfo span{
+    font-family: Montserrat;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    margin: top 45px;
+    letter-spacing: 2px;
+
+
+}
+
+.footerinfo p{
+    color:#aab1b7;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.helpinfo span{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 37px;
+    
+}
+.helpinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.helpinfo p{
+    font-size: 16px;
+    color:#AAB1B7; 
+}
+
+
+.explore_more{
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+
+.explore_more .first_set{
+    flex-direction: row;
+}
+
+.explore_more .second_set{
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.explore_more .first_set .nature{
+    flex-direction: column;
+}
+.explore_more .first_set .heritage{
+    flex-direction: column;
+}
+
+.explore_more img{
+    height: 300px ;
+    width: 450px;
+    margin-top: 600px;
+}
+.explore_more .second_set{
+    flex-direction: row;
+}
+.explore_more .second_set .spiritual{
+    flex-direction: column;
+}
+
+.explore_more .second_set .family{
+    flex-direction: column;
+}
+
+
+.explore_more .exploree{
+    margin-top: 600px;
+    margin-left: 650px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: red;
+    font-family: Montserrat;
+    
+}
+.newsletter{
+    margin-top: 5px;
+    height: 400px;
+    background-image: url(IMAGES/newsbg.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+
+}
+.newsletter span{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    margin-top: 100px;
+}
+
+.email{
+    flex-direction: row;
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+.email input{
+    background-color: #00000000;
+    border: 1px solid white;
+}
+.email button{
+    height: 50px;
+    width: 130px;
+    color: white;
+    background-color: #fe364a;
+    border: none;
+    font-weight: 400;
+}
+.footer{
+    width: 100%;
+    height: 390px;
+    background-color: #080d1d;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 170px;
+    
+}
+
+.socials{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+}
+.logon{
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.logon span{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.socials p{
+    color:#AAB1B7;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.soclogos{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 90px;
+    gap: 20px;
+    margin-left: 10px;
+}
+.soclogos img{
+    height: 20px;
+    width: 20px;
+}
+
+.footerinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.footerinfo span{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 37px;
+    letter-spacing: 3px;
+}
+
+.footerinfo p{
+    font-size: 16px;
+    color:#AAB1B7; 
+}
+.helpinfo span{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 37px;
+    
+}
+.helpinfo{
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.helpinfo p{
+    font-size: 16px;
+    color:#AAB1B7; 
+}
+
+.ladakh_info a{
+    text-decoration: none;
+    color: black;
+}
+.rishikesh_info a{
+    text-decoration: none;
+    color: black;
+}
+.goa_info a{
+    text-decoration: none;
+    color: black;
+}
