@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="loginbox">
+            <span style="font-size: 35px; font-weight: 700; font-family: Montserrat; margin-top: 40px;">Login</span>
+            <span style="margin-top: 20px; font-size: 16px; font-weight: 300; font-family: Montserrat;">Enter details to get access</span>
+            <form style="margin-top: 50px;" action="/" method="post">
+                <p style="margin-right: 400px;">Username:</p><br>
+                <input type="text" size="60" placeholder="Enter Username" name="uname" id="uname" >
+                <p style="margin-right: 400px; margin-top: 20px;">Password:</p><br>
+                <input type="password" size="60" placeholder="Enter Password" id="pass" name="pass"><br>
+                <span id="error" style="margin-top: 50px; font-style: italic;"></span>
+                <p style="margin-top: 10px; font-size: 14px;">Forgot password?</p>
+                <div class="keepme">
+                    <input type="checkbox">
+                    <p>Keep me logged in</p>
+                </div>
+                <!-- <button type="button" onclick="return validate();">Login</button> -->
+                <input type="submit" value="Login">
+                <p style="margin-top: 20px;">New user? <a href="">click</a> to register</p>
+            </form>
+        </div>
+
+    </div>
+    
+    <!-- <script>
+        function validate(){
+
+     
+        var a=document.getElementById("uname").value;
+        var b=document.getElementById("pass").value;
+        if(a==""){
+            document.getElementById("error").innerHTML="all fields are compulsory";
+        }
+        else if(b==""){
+            document.getElementById("error").innerHTML="all fields are compulsory"
+        }
+        return false;
+    } -->
+
+    </script>
+</body>
+</html>
